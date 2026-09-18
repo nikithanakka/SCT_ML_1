@@ -10,7 +10,7 @@ This project was completed as **Task 01** of the **SkillCraft Technology Machine
 
 ### 🎯 Objective
 
-The objective of this project is to build a machine learning model that predicts house prices using the following features:
+The objective of this project is to build a machine learning model that predicts house prices using:
 
 - Above-ground living area
 - Number of bedrooms
@@ -22,7 +22,7 @@ The project uses the **House Prices - Advanced Regression Techniques** dataset f
 
 Dataset: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
 
-The target variable used for prediction is:
+Target variable:
 
 - `SalePrice` - Sale price of the house
 
@@ -53,11 +53,7 @@ The dataset was divided into:
 - **80% Training data**
 - **20% Testing data**
 
-The Linear Regression model was trained using the selected features and `SalePrice` as the target variable.
-
 ### 📈 Model Evaluation
-
-The model was evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R² Score.
 
 | Metric | Value |
 |---|---:|
@@ -68,8 +64,34 @@ The model was evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE
 
 ### 📌 Linear Regression Coefficients
 
-```text
-GrLivArea      : 104.03
-BedroomAbvGr   : -26655.17
-FullBath       : 30014.32
-Intercept      : 52261.75
+GrLivArea: **104.03**
+
+BedroomAbvGr: **-26655.17**
+
+FullBath: **30014.32**
+
+Intercept: **52261.75**
+
+### 📉 Visualization
+
+An Actual vs Predicted House Prices graph was created to compare the model's predictions with the actual house prices.
+
+![Actual vs Predicted House Prices](actual_vs_predicted_house_prices.png)
+
+### 📝 Interpretation
+
+The R² score of **0.6341** indicates that the model explains approximately **63.41% of the variation in house prices** in the test dataset.
+
+### ✅ Conclusion
+
+A Linear Regression model was successfully implemented to predict house prices using living area, bedrooms, and bathrooms.
+
+### 📂 Project Files
+
+- `SCT_ML_1_House_Price_Prediction.ipynb`
+- `actual_vs_predicted_house_prices.png`
+- `README.md`
+
+### 👩‍💻 Author
+
+**Nakka Nikitha**
